@@ -24,7 +24,17 @@
 
 <body>
 
-    <!--NavBar-->
+      <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+<!--NavBar-->
     <nav class="navbar navbar-expand-md navbar-dark bg-info">
 
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
@@ -111,8 +121,6 @@
 
                             <p>Estes dados estão relacionados com:</p>
                             
-
-
                             <p>Pedimos a sua autorização para que estes dados sejam mantidos no sistema, mas os seus dados pessoais sejam apenas anonimizados, ou seja, não serão mais visíveis</p>
 
                             <p>Ex: lu***********************</p>
@@ -120,9 +128,10 @@
                             <p></p>
 
                             <div
-                                class="form-group d-flex align-items-center justify-content-center mt-4 mb-0">
-                                <a class="btn btn-info mr-5" href="#">SIM, MANTER MEUS DADOS</a>
-                                <a class="btn btn-info" href="#">NÃO, EXCLUIR MEUS DADOS</a>
+                                class="form-group d-flex align-items-center justify-content-center">
+                                <a class="btn btn-success mr-1 col-xl-2 col-5" href="#">MANTER DADOS</a>
+                                <a class="btn btn-danger mr-1 col-xl-2 col-5" href="#">EXCLUIR DADOS</a>
+                                <a class="btn btn-secondary col-xl-2 col-5" href="#">CANCELAR EXCLUSÃO</a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +140,6 @@
 
 
                 <div class="col-12">
-                    <hr>
 
                             <div>
                                 <li>Testes de conhecimento feitos anteriormente</li>
