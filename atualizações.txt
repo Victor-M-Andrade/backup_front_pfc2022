@@ -1,16 +1,7 @@
 atualizações:
 
-- Atualização no arquivo de exclusão de usuario -> usuario/excluir.html
+- criando nova branch
 
-- Adição de um novo arquivo de js para o dark mode -> darkMode.js
+- arquivo de termos de uso
 
-- Tem que colocar o import dele no layout ->   <script src="resources/javascript/darkMode.js"></script>
-
-- Adição de um novo botão na navbar para o dark mode (colocar ele depois da div class="collapse navbar-collapse") -> 
-  
-  <label for="input-dark-mode">
-      <a class="button btn btn-outline-light">Dark Mode</a>
-  </label>
-  <input type="checkbox" id="input-dark-mode" hidden>
-
-- Atualização no arquivo de css com as paradas do dark mode -> css.css
+- subindo arquivos atualizados
